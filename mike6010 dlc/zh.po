@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ventulus\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Application: Oxygen Not Included\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgctxt "BUILDINGS.PREFABS.FUSIONREACTOR.NAME"
+msgid "<link=\"FUSIONREACTOR\">Fusion Reactor</link>"
+msgstr "<link=\"FUSIONREACTOR\">聚变反应堆</link>"
+
+msgctxt "BUILDINGS.PREFABS.FUSIONREACTOR.DESC"
+msgid "FusionReactor Description"
+msgstr "把元素进行核聚变反应"
+
+msgctxt "BUILDINGS.PREFABS.FUSIONREACTOR.EFFECT"
+msgid "FusionReactor Effect details"
+msgstr "将提炼完成的<link=\"TRITIUM\">氚气</link>体通入反应堆，进行核聚变反应。每6秒进行核聚变反应一次，产生9715摄氏度的<link=\"NUCLEARWASTE\">液态核废料</link>，在第4秒的时候排出。输入的氚温度不能低于500C°"
+
+msgctxt "BUILDINGS.PREFABS.FUSIONREACTOR.NOTIFICATION_TITLE"
+msgid "Tritium Too Cold"
+msgstr "氚温度过低"
+
+msgctxt "BUILDINGS.PREFABS.FUSIONREACTOR.NOTIFICATION1"
+msgid "Stored tritium is below {0}. Current temperature: {1}"
+msgstr "库存中的氚低于 {0}。当前温度：{1}"
+
+msgctxt "BUILDINGS.PREFABS.GASCENTRIFUGE.NAME"
+msgid "<link=\"GASCENTRIFUGE\">Gas Centrifuge</link>"
+msgstr "<link=\"GASCENTRIFUGE\">气体离心机</link>"
+
+msgctxt "BUILDINGS.PREFABS.GASCENTRIFUGE.DESC"
+msgid "GasCentrifuge Description"
+msgstr "把氢气提炼出氚气."
+
+msgctxt "BUILDINGS.PREFABS.GASCENTRIFUGE.EFFECT"
+msgid "GasCentrifuge Effect details"
+msgstr "把100%的<link=\"HYDROGEN\">氢气</link>提炼出5%<link=\"TRITIUM\">氚气</link>。"
+
+msgctxt "BUILDINGS.PREFABS.GASCENTRIFUGE.UI_RECIPE_TITLE"
+msgid "GasCentrifuge Recipe UI Title"
+msgstr "选择一个配方"
+
+msgctxt "LaserHeater.BUILDINGS.PREFABS.LASERHEATER.DESC"
+msgid "LaserHeater Description"
+msgstr "把电力转换成激光加热气态液体固体"
+
+msgctxt "LaserHeater.BUILDINGS.PREFABS.LASERHEATER.EFFECT"
+msgid "LaserHeater Effect details"
+msgstr "把2000瓦的85%电力转换成激光热量，加热选中的一个方向途中的气体、液体和固体。其中热量的吸收与该材质的“光吸收系数”有关。"
+
+msgctxt "LaserHeater.BUILDINGS.PREFABS.LASERHEATER.NAME"
+msgid "<link=\"LASERHEATER\">Laser Heater</link>"
+msgstr "<link=\"LASERHEATER\">激光加热器</link>"
+
+msgctxt "LaserHeater.BUILDINGS.PREFABS.LASERHEATER.UI"
+msgid "Choose Laser Direction"
+msgstr "选择激光的方向"
+
+msgctxt "ELEMENTS_TRITIUM.TRITIUM.NAME"
+msgid "<link=\"TRITIUM\">Gas Tritium</link>"
+msgstr "<link=\"TRITIUM\">氚气</link>"
+
+msgctxt "ELEMENTS_TRITIUM.TRITIUM.DESC"
+msgid "Gas Tritium Description"
+msgstr "氚是氢的同位素具有与氢相近的物理性质，当氚的温度高于5000℃时会聚变为9700℃的液态核废料"
+
+msgctxt "ELEMENTS_TRITIUM.LIQUIDTRITIUM.NAME"
+msgid "<link=\"LIQUIDTRITIUM\">Liquid Tritium</link>"
+msgstr "<link=\"LIQUIDTRITIUM\">液态氚</link>"
+
+msgctxt "ELEMENTS_TRITIUM.LIQUIDTRITIUM.DESC"
+msgid "Liquid Tritium Description"
+msgstr "氚是氢的同位素具有与氢相近的物理性质."
+
+msgctxt "ELEMENTS_TRITIUM.SOLIDTRITIUM.NAME"
+msgid "<link=\"SOLIDTRITIUM\">Solid Tritium</link>"
+msgstr "<link=\"SOLIDTRITIUM\">固态氚</link>"
+
+msgctxt "ELEMENTS_TRITIUM.SOLIDTRITIUM.DESC"
+msgid "Solid Tritium Description"
+msgstr "氚是氢的同位素具有与氢相近的物理性质."
+
+msgctxt "BUILDINGS.PREFABS.NUCLEARBOMB.NAME"
+msgid "<link=\"NUCLEARBOMB\">Nuclear Bomb</link>"
+msgstr "<link=\"NUCLEARBOMB\">核弹</link>"
+
+msgctxt "BUILDINGS.PREFABS.NUCLEARBOMB.DESC"
+msgid "NuclearBomb Description"
+msgstr "可以用来摧毁行星的核弹, 需要装载5000KG的<link=\"TRITIUM\">氚</link>和800KG的<link=\"ENRICHEDURANIUM\">浓缩铀</link>,备份游戏存档!,备份游戏存档!,备份游戏存档!"
+
+msgctxt "BUILDINGS.PREFABS.NUCLEARBOMB.EFFECT"
+msgid "NuclearBomb Effect details"
+msgstr "由<link=\"TRITIUM\">氚气</link>和<link=\"ENRICHEDURANIUM\">浓缩铀</link>制成的核弹威力巨大，可以用来摧毁小行星。备份游戏存档!,备份游戏存档!,备份游戏存档!"

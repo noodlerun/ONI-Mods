@@ -1,0 +1,79 @@
+---
+elements:
+  - elementId: Tritium
+    specificHeatCapacity: 2.4
+    thermalConductivity: 0.168
+    solidSurfaceAreaMultiplier: 25
+    liquidSurfaceAreaMultiplier: 1
+    gasSurfaceAreaMultiplier: 1
+    flow: 0.1
+    lowTemp: 21
+    lowTempTransitionTarget: LiquidTritium
+    highTemp: 5273.15
+    highTempTransitionTarget: NuclearWaste
+    defaultTemperature: 300
+    defaultPressure: 7
+    molarMass: 1.00794
+    toxicity: 0
+    lightAbsorptionFactor: 0.1
+    radiationAbsorptionFactor: 0.09
+    radiationPer1000Mass: 0
+    materialCategory: Unbreathable
+    tags:
+    isDisabled: false
+    state: Gas
+    localizationID: STRINGS.ELEMENTS.TRITIUM.NAME
+    dlcId: ""
+
+  - elementId: LiquidTritium
+    maxMass: 1000
+    liquidCompression: 1.01
+    speed: 180
+    minHorizontalFlow: 0.01
+    minVerticalFlow: 0.01
+    specificHeatCapacity: 2.4
+    thermalConductivity: 0.1
+    solidSurfaceAreaMultiplier: 1
+    liquidSurfaceAreaMultiplier: 25
+    gasSurfaceAreaMultiplier: 1
+    lowTemp: 14
+    highTemp: 21
+    lowTempTransitionTarget: SolidTritium
+    highTempTransitionTarget: Tritium
+    defaultTemperature: 18
+    defaultMass: 600
+    molarMass: 1.00794
+    toxicity: 0
+    lightAbsorptionFactor: 1
+    radiationAbsorptionFactor: 0.9
+    radiationPer1000Mass: 0
+    tags:
+    isDisabled: false
+    state: Liquid
+    localizationID: STRINGS.ELEMENTS.LIQUIDTRITIUM.NAME
+    dlcId: ""
+
+  - elementId: SolidTritium
+    specificHeatCapacity: 2.4
+    thermalConductivity: 1
+    solidSurfaceAreaMultiplier: 1
+    liquidSurfaceAreaMultiplier: 1
+    gasSurfaceAreaMultiplier: 1
+    strength: 0.25
+    highTemp: 14
+    highTempTransitionTarget: LiquidTritium
+    defaultTemperature: 5
+    defaultMass: 600
+    maxMass: 1000
+    hardness: 2
+    molarMass: 44.1
+    lightAbsorptionFactor: 0.75
+    radiationAbsorptionFactor: 0.9
+    radiationPer1000Mass: 0
+    materialCategory: Liquifiable
+    tags:
+    buildMenuSort: 1
+    isDisabled: false
+    state: Solid
+    localizationID: STRINGS.ELEMENTS.SOLIDTRITIUM.NAME
+    dlcId: ""
