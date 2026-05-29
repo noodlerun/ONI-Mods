@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ventulus\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Application: Oxygen Not Included\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLE.NAME"
+msgid "<link=ENGINECONSOLE\">Asteroid Engine Console</link>"
+msgstr "<link=ENGINECONSOLE\">小行星引擎控制台</link>"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLE.DESC"
+msgid "Asteroid Engine Console Description"
+msgstr "只允许在主星建造，并且只能建造一个。可以控制多个行星引擎"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLE.EFFECT"
+msgid "Star Engine Console Effect details"
+msgstr "行星引擎控制台拥有四个档位，可以控制<link=\"ASTEROIDENGINE\">行星引擎</link>的输出功率。挡位一：功耗0，引擎停止运动。档位二：功耗25Kw。档位三：功耗35Kw。挡位四：功耗45Kw"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ASTEROIDENGINE.NAME"
+msgid "<link=ASTEROIDENGINE\">Asteroid Engine</link>"
+msgstr "<link=ASTEROIDENGINE\">小行星引擎</link>"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ASTEROIDENGINE.DESC"
+msgid "Asteroid Engine Console Description"
+msgstr "只允许在主星建造，并且只能建造在小行星底部(高小于离底部30格)"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ASTEROIDENGINE.EFFECT"
+msgid "Asteroid Engine Effect details"
+msgstr "由<link=\"ENGINECONSOLE\">行星引擎控制台</link>进行全面的控制，可以推动小行星前进"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.SIDESCREENTITLE"
+msgid "Engine Console Side Screen Title"
+msgstr "小行星引擎控制台"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.DESTINATIONBUTTON"
+msgid "Engine Console Side Screen Destination Button"
+msgstr "设置目的地"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.FRAMELABLETITLE"
+msgid "Engine Console Side Screen Frame Title"
+msgstr "设置功耗"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.POWERLEVELTIP1"
+msgid "Engine Console Side Screen Power Level Tip1"
+msgstr "功耗0 : 引擎关闭"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.POWERLEVELTIP2"
+msgid "Engine Console Side Screen Power Level Tip2"
+msgstr "功耗3"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.POWERSTATUS"
+msgid "Engine Console Side Screen Power Status"
+msgstr "当前引擎功耗 ： "
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.ENGINESSTATUSTITLE"
+msgid "Asteroid Engines Status"
+msgstr "引擎状态"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.ENGINESCOUNTER"
+msgid "Asteroid Engines Counter"
+msgstr "当前在线引擎"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.ENGINESSTATUSOFF"
+msgid "Asteroid Engines Off-line"
+msgstr "引擎状态 : 离线"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.ENGINESSTATUSTRANS"
+msgid "Asteroid Engines Translating"
+msgstr "引擎状态 : 换档中........"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.ENGINESSTATUSNORMAL"
+msgid "Asteroid Engines Normal"
+msgstr "引擎状态 : 正常"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.ENGINECONSOLESIDESCREEN.ENGINESSTATUSOFFNODES"
+msgid "Asteroid Engines Off-line No Destination"
+msgstr "引擎状态 : 停止。没有目的地。"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.FAILREASONS.ASTEROIDENGINEBUILDINGRULE"
+msgid "Asteroid Engines Build Rule"
+msgstr "小行星引擎只能建造在小行星的底部（其高度必须距离底部小于 30 个方块）。"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.FAILREASONS.ASTEROIDENGINECONSOLEBUILDINGRULE"
+msgid "Asteroid Engines Console Build Rule"
+msgstr "一颗小行星上只能建造一个控制台，而且只能建造在主小行星上。"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.CLUSTERSCREENTIPS.TIPS1"
+msgid "Cluster Screen Tip1"
+msgstr "大约 ："
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.CLUSTERSCREENTIPS.TIPS2"
+msgid "Cluster Screen Tip2"
+msgstr " 个周期到达 . . ."
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.CLUSTERSCREENTIPS.TIPS3"
+msgid "Cluster Screen Tip3"
+msgstr "无动力"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.CLUSTERSCREENTIPS.TIPS4"
+msgid "Cluster Screen Tip4"
+msgstr "目的地距离障碍物太近（至少半径距离1格）。"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.CLUSTERSCREENTIPS.TIPS5"
+msgid "Cluster Screen Tip5"
+msgstr "距离下个格子还有 "
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.NEWWORLD.TIPS1"
+msgid "New World Tip1"
+msgstr "正在备份存档到： "
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.NEWWORLD.TIPS2"
+msgid "New World Tip2"
+msgstr "正在分解自身元素"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.NEWWORLD.TIPS3"
+msgid "New World Tip3"
+msgstr "正在穿越虫洞"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.NEWWORLD.TIPS4"
+msgid "New World Tip4"
+msgstr "正在重组"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.TEMPORALTEAR.TIPS1"
+msgid "Temporal Tear Tip1"
+msgstr "时空裂缝"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.TEMPORALTEAR.TIPS2"
+msgid "Temporal Tear Tip2"
+msgstr "是否前往新世界？你将不能回到旧世界。"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.TEMPORALTEAR.TIPS3"
+msgid "Temporal Tear Tip3"
+msgstr "是的。"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.TEMPORALTEAR.TIPS4"
+msgid "Temporal Tear Tip4"
+msgstr "不，再等等。"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEYSERSSIDESCREENTEXT1"
+msgid "Geyser Storage"
+msgstr "喷泉剩余存量(%)"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEYSERSSIDESCREENTEXT2"
+msgid "Storage Remaining Unknow"
+msgstr "剩余储存量：未知"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEYSERSSIDESCREENTEXT3"
+msgid "Requires Geyser Research"
+msgstr "需要对喷泉研究"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEYSERSSIDESCREENTEXT4"
+msgid "Geyser Reservoir Depleted"
+msgstr "间隙泉储存量已耗尽"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEYSERSSIDESCREENTEXT5"
+msgid "has been depleted"
+msgstr "该间隙泉的可喷发储存量已经耗尽"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.OILWELLTEXT1"
+msgid "Oil Reservoir Storage"
+msgstr "石油储存量(%)"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.OILWELLTEXT2"
+msgid "No oil reservoir found."
+msgstr "没有储油石"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.OILWELLTEXT3"
+msgid "OILWELLTEXT3"
+msgstr "储油石枯竭"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.OILWELLTEXT4"
+msgid "OILWELLTEXT4"
+msgstr "该储油石已无剩余可开采石油"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.OPTIONS.DEBUGTEXT1"
+msgid "Debug Mode"
+msgstr "Debug模式"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.OPTIONS.DEBUGTEXT2"
+msgid "Eable or Disable Debug Mode"
+msgstr "启用或禁用Debug模式"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEOTHERMALTEXT1"
+msgid "GEOTHERMALTEXT1"
+msgstr "地热热泵储备(%)"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEOTHERMALTEXT2"
+msgid "GEOTHERMALTEXT2"
+msgstr "地热热泵储备已枯竭"
+
+msgctxt "Interstellar.BUILDINGS.PREFABS.LIMITEDRESOURCE.GEOTHERMALTEXT3"
+msgid "GEOTHERMALTEXT3"
+msgstr "该地热热泵已无剩余输出储备"
